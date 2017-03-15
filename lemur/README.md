@@ -3,9 +3,11 @@ A simple tool to ship logs from Logstash to Microsoft Azure Event Hub.
 
 ## Dependencies
 
-curl --silent --location https://rpm.nodesource.com/setup_7.x | bash -
-yum -y install nodejs
-npm install
+1. `curl --silent --location https://rpm.nodesource.com/setup_7.x | bash -`
+
+2. `yum -y install nodejs`
+
+3. `npm install`
 
 ## Configuration
 
