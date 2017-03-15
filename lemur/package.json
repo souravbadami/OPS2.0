@@ -1,0 +1,24 @@
+{
+  "name": "javascript-eventhubs-client",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Azure Event Hubs Node.js SDK javascript sample",
+  "author": "Microsoft Corporation",
+  "license": "MIT",
+  "scripts": {
+    "lint": "jshint --show-non-errors .",
+    "test": "npm -s run lint"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.1"
+  },
+  "dependencies": {
+    "azure-event-hubs": ">=0.0.3",
+    "bluebird": "^3.4.1",
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "json": "^9.0.4",
+    "multer": "^1.3.0",
+    "request": "^2.79.0"
+  }
+}
