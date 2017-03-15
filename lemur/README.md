@@ -11,7 +11,7 @@ A simple tool to ship logs from Logstash to Microsoft Azure Event Hub.
 
 ## Configuration
 
-Move `config.sample.js` to `/etc/lemur/` and rename it to `config.js` and replace the configuration details. We have also included a sample httpd configuration file for reference.
+Move `config.sample.js` to `/etc/lemur/` and rename it to `config.js` and replace the configuration details. We have also included a sample logstash configuration file demonstrating the log shipping of Apache httpd log files to Azure event hub through Lemur.
 
 ## Execute
 
